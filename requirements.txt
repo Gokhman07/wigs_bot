@@ -1,6 +1,9 @@
 absl-py==1.4.0
 aio-pika==8.2.3
 aiofiles==24.1.0
+rasa==3.6.20
+rasa-sdk==3.6.2
+
 aiogram==2.15
 aiohttp==3.9.5
 aiohttp-retry==2.8.3
