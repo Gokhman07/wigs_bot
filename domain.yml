@@ -1,0 +1,37 @@
+version: "3.1"
+intents:
+- greetY
+
+- ask_price
+- ask_wig_types
+- ask_address
+
+entities:
+- category
+- length
+
+slots:
+  category:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: category
+  length:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: length
+
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_wig_types: 
+    - text: "We have a variety of wigs including Dark Brown, Dark Blonde, Medium, Platinum, and more."
+  utter_address:
+    - text: "14 Shmager Street, Jerusalem. 02-6423576"
+
+actions:
+- action_ask_price
+- action_ask_wig_types
+

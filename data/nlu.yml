@@ -1,0 +1,386 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hey there
+
+
+- intent: ask_price
+  examples: |
+    - What is the price of [Dark Brown](category) up to [6](length) cm?
+    - How much does [Dark Blonde](category) up to [12](length) cm cost?
+    - Price of [Medium](category) up to [15](length) cm?
+    - How much for [Platinum](category) up to [20](length) cm?
+    - Can you tell me the price of [Dark Brown](category) for [6](length) cm?
+    - I need the cost of [Dark Blonde](category) up to [12](length) cm.
+    - What's the price for [Medium](category) hair up to [15](length) cm?
+    - Give me the price for [Platinum](category) up to [20](length) cm?
+    - How much does [white](category:Platinum) up to [10](length) cm cost?
+    - What's the price for [white hair](category:Platinum) up to [15](length) cm?
+    - What's the price for [white blonde](category:Dark Blonde) up to [12](length) cm?
+    - How much does [white platinum](category:Platinum) up to [20](length) cm cost?
+    - Price of [white](category:Dark Blonde) up to [10](length) cm?
+    - How much for [white platinum](category:Platinum) up to [15](length) cm?
+    - Can you tell me the price of [white blonde](category:Dark Blonde) for [12](length) cm?
+    - I need the cost of [white hair](category:Platinum) up to [10](length) cm.
+    - How much is [white blonde](category:Dark Blonde) up to [14](length) cm?
+    - What is the cost of [white platinum](category:Platinum) up to [18](length) cm?
+    - Price of [white](category:Dark Blonde) up to [20](length) cm?
+    - How much for [white hair](category:Platinum) up to [25](length) cm?
+    - Can you tell me the price of [white blonde](category:Dark Blonde) for [22](length) cm?
+    - I need the cost of [white platinum](category:Platinum) up to [30](length) cm.
+    - What's the price for [white](category:Dark Blonde) hair up to [32](length) cm?
+    - Give me the price for [white hair](category:Platinum) up to [35](length) cm?
+    - How much does [white blonde](category:Dark Blonde) up to [38](length) cm cost?
+    - What's the price for [white platinum](category:Platinum) up to [40](length) cm?
+    - Price of [white](category:Dark Blonde) up to [42](length) cm?
+    - How much for [white hair](category:Platinum) up to [45](length) cm?
+    - Can you tell me the price of [white blonde](category:Dark Blonde) for [48](length) cm?
+    - I need the cost of [white platinum](category:Platinum) up to [50](length) cm.
+    - How much is [white blonde](category:Dark Blonde) up to [5](length) cm?
+    - What is the cost of [white platinum](category:Platinum) up to [7](length) cm?
+    - Price of [white](category:Dark Blonde) up to [9](length) cm?
+    - How much for [white hair](category:Platinum) up to [11](length) cm?
+    - Can you tell me the price of [white blonde](category:Dark Blonde) for [13](length) cm?
+    - I need the cost of [white platinum](category:Platinum) up to [15](length) cm.
+    - What's the price for [white](category:Dark Blonde) hair up to [17](length) cm?
+    - Give me the price for [white hair](category:Platinum) up to [19](length) cm?
+    - How much does [white blonde](category:Dark Blonde) up to [21](length) cm cost?
+    - What's the price for [white platinum](category:Platinum) up to [23](length) cm?
+    - Price of [white](category:Dark Blonde) up to [25](length) cm?
+    - How much for [white hair](category:Platinum) up to [27](length) cm?
+    - Can you tell me the price of [white blonde](category:Dark Blonde) for [29](length) cm?
+    - I need the cost of [white platinum](category:Platinum) up to [31](length) cm.
+    - How much is [white blonde](category:Dark Blonde) up to [33](length) cm?
+    - What is the cost of [white platinum](category:Platinum) up to [35](length) cm?
+    - Price of [white](category:Dark Blonde) up to [37](length) cm?
+    - How much for [white hair](category:Platinum) up to [39](length) cm?
+    - Can you tell me the price of [white blonde](category:Dark Blonde) for [41](length) cm?
+    - I need the cost of [white platinum](category:Platinum) up to [43](length) cm.
+    - What's the price for [white](category:Dark Blonde) hair up to [45](length) cm?
+    - Give me the price for [white hair](category:Platinum) up to [47](length) cm?
+    - How much does [white blonde](category:Dark Blonde) up to [49](length) cm cost?
+    - What's the price for [dark brown](category:Dark Brown) up to [12](length) cm?
+    - How much does [dark brunette](category:Dark Brown) up to [15](length) cm cost?
+    - Price of [deep brown](category:Dark Brown) up to [20](length) cm?
+    - How much for [espresso](category:Dark Brown) up to [25](length) cm?
+    - Can you tell me the price of [chocolate brown](category:Dark Brown) for [30](length) cm?
+    - I need the cost of [rich brown](category:Dark Brown) up to [35](length) cm.
+    - What's the price for [mahogany brown](category:Dark Brown) hair up to [40](length) cm?
+    - Give me the price for [coffee brown](category:Dark Brown) up to [45](length) cm?
+    - How much is [cocoa brown](category:Dark Brown) up to [50](length) cm?
+    - What is the cost of [mocha brown](category:Dark Brown) up to [55](length) cm?
+    - Price of [walnut brown](category:Dark Brown) up to [60](length) cm?
+    - How much for [sable brown](category:Dark Brown) up to [65](length) cm?
+    - Can you tell me the price of [umber brown](category:Dark Brown) for [70](length) cm?
+    - I need the cost of [ebony brown](category:Dark Brown) up to [75](length) cm.
+    - What's the price for [hazel brown](category:Dark Brown) hair up to [80](length) cm?
+    - Give me the price for [truffle brown](category:Dark Brown) up to [85](length) cm?
+    - How much does [brown black](category:Dark Brown) up to [90](length) cm cost?
+    - What's the price for [deep brunette](category:Dark Brown) up to [95](length) cm?
+    - Price of [chestnut brown](category:Dark Brown) up to [100](length) cm?
+    - How much for [dark chocolate](category:Dark Brown) up to [105](length) cm?
+    - Can you tell me the price of [deep brown](category:Dark Brown) for [110](length) cm?
+    - I need the cost of [dark brown hair](category:Dark Brown) up to [115](length) cm.
+    - What's the price for [espresso brown](category:Dark Brown) hair up to [120](length) cm?
+    - Give me the price for [dark brunette hair](category:Dark Brown) up to [125](length) cm?
+    - How much is [mocha brown hair](category:Dark Brown) up to [130](length) cm?
+    - What is the cost of [rich brown hair](category:Dark Brown) up to [135](length) cm?
+    - Price of [coffee brown hair](category:Dark Brown) up to [140](length) cm?
+    - How much for [deep chocolate brown](category:Dark Brown) up to [145](length) cm?
+    - Can you tell me the price of [brown hair](category:Dark Brown) for [150](length) cm?
+    - I need the cost of [dark hair](category:Dark Brown) up to [155](length) cm.
+    - What's the price for [deep chocolate](category:Dark Brown) hair up to [160](length) cm?
+    - Give me the price for [espresso hair](category:Dark Brown) up to [165](length) cm?
+    - How much does [rich brunette](category:Dark Brown) up to [170](length) cm cost?
+    - What's the price for [dark walnut](category:Dark Brown) up to [175](length) cm?
+    - Price of [mocha hair](category:Dark Brown) up to [180](length) cm?
+    - How much for [deep brown hair](category:Dark Brown) up to [185](length) cm?
+    - Can you tell me the price of [chocolate hair](category:Dark Brown) for [190](length) cm?
+    - I need the cost of [brown hair](category:Dark Brown) up to [195](length) cm.
+    - What's the price for [dark cocoa](category:Dark Brown) hair up to [200](length) cm?
+    - Give me the price for [deep brown hair](category:Dark Brown) up to [205](length) cm?
+    - How much does [espresso brunette](category:Dark Brown) up to [210](length) cm cost?
+    - What's the price for [dark sable](category:Dark Brown) up to [215](length) cm?
+    - Price of [deep espresso](category:Dark Brown) up to [220](length) cm?
+    - How much for [dark coffee](category:Dark Brown) up to [225](length) cm?
+    - Can you tell me the price of [dark walnut hair](category:Dark Brown) for [230](length) cm?
+    - I need the cost of [dark umber](category:Dark Brown) up to [235](length) cm.
+    - What's the price for [deep brown hair](category:Dark Brown) hair up to [240](length) cm?
+    - Give me the price for [deep brown brunette](category:Dark Brown) up to [245](length) cm?
+    - How much does [dark ebony]r(category:Dark Brown) up to [250](length) cm cost?
+    - What is the price of [Dark Brown](category) up to [6](length) cm?
+    - How much does [Dark Blonde](category) up to [12](length) cm cost?
+    - Price of [Medium](category) up to [15](length) cm?
+    - How much for [Platinum](category) up to [20](length) cm?
+    - Can you tell me the price of [Dark Brown](category) for [6](length) cm?
+    - I need the cost of [Dark Blonde](category) up to [12](length) cm.
+    - What's the price for [Medium](category) hair up to [15](length) cm?
+    - Give me the price for [Platinum](category) up to [20](length) cm?
+    - How much does [white](category:Platinum) up to [10](length) cm cost?
+    - What's the price for [white hair](category:Platinum) up to [15](length) cm?
+    - What's the price for [white blonde](category:Dark Blonde) up to [12](length) cm?
+    - How much does [white platinum](category:Platinum) up to [20](length) cm cost?
+    - Price of [white](category:Dark Blonde) up to [10](length) cm?
+    - How much for [white platinum](category:Platinum) up to [15](length) cm?
+    - Can you tell me the price of [white blonde](category:Dark Blonde) for [12](length) cm?
+    - What is the cost of [Dark Brown](category) up to [30](length) cm?
+    - Tell me the price for [Dark Blonde](category) at [25](length) cm.
+    - What is the price of [Medium](category) up to [35](length) cm?
+    - How much does [Platinum](category) up to [40](length) cm cost?
+    - I need the price of [Dark Brown](category) up to [45](length) cm.
+    - How much does [Dark Blonde](category) up to [50](length) cm cost?
+    - Price of [Medium](category) up to [20](length) cm?
+    - What is the price of [Yellow](category) up to [15](length) cm?
+    - How much for [Blue](category) up to [10](length) cm?
+    - Can you tell me the price of [Green](category) for [20](length) cm?
+    - I want to know the cost of [Platinum](category) for [12](length) cm.
+    - Could you tell me the price of [Medium](category) up to [10](length) cm?
+    - How much does [Dark Brown](category) hair up to [15](length) cm cost?
+    - What is the price for [Dark Blonde](category) hair at [12](length) cm?
+    - What is the price of [Red](category) up to [6](length) cm?
+    - How much does [Purple](category) up to [12](length) cm cost?
+    - I want the price for [Yellow](category) up to [20](length) cm?
+    - Can you tell me the cost of [Blue](category) for [15](length) cm?
+    - How much is the price of [Green](category) up to [10](length) cm?
+    - Price of [Orange](category) up to [25](length) cm?
+
+- synonym: Dark Blonde
+  examples: |
+    - white blonde
+    - pale blonde
+    - light blonde
+    - ivory blonde
+    - platinum blonde
+    - frost blonde
+    - bleach blonde
+    - flaxen blonde
+    - silver blonde
+    - pearl blonde
+    - alabaster blonde
+    - chalk blonde
+    - ash blonde
+    - pale gold blonde
+    - platinum gold blonde
+    - bleach blonde
+    - light gold blonde
+    - champagne blonde
+    - light platinum blonde
+    - frosty blonde
+    - snow blonde
+    - cream blonde
+    - moon blonde
+    - ghost blonde
+    - ice blonde
+    - off-white blonde
+    - white gold blonde
+    - pale ash blonde
+    - white silver blonde
+    - milky blonde
+    - luminous blonde
+    - sun blonde
+    - faint blonde
+    - dull blonde
+    - clear blonde
+    - mellow blonde
+    - bleached blonde
+    - faint gold blonde
+    - wheat blonde
+    - washed-out blonde
+    - subdued blonde
+    - neutral blonde
+    - muted blonde
+    - soft blonde
+    - subtle blonde
+    - understated blonde
+    - mellow blonde
+    - faintly blonde
+    - ivory blonde
+
+- synonym: Platinum
+  examples: |
+    - white
+    - white platinum
+    - silver
+    - gray
+    - ashen
+    - snowy
+    - alabaster
+    - chalk
+    - light
+    - pale
+    - fair
+    - bleach
+    - platinum blonde
+    - snow white
+    - ghost white
+    - moon white
+    - milk white
+    - pearl white
+    - ivory
+    - light grey
+    - cloudy white
+    - white blonde
+    - silver blonde
+    - light silver
+    - frosted
+    - frost
+    - snowflake
+    - bright white
+    - clean white
+    - pure white
+    - cool white
+    - arctic white
+    - ice white
+    - brilliant white
+    - winter white
+    - glacial white
+    - crystalline white
+    - bleached white
+    - radiant white
+    - luminous white
+    - milky white
+    - clear white
+    - platinum gray
+    - neutral white
+    - muted white
+    - soft white
+    - subtle white
+    - understated white
+    - mellow white
+
+- synonym: Dark Brown
+  examples: |
+    - dark brunette
+    - deep brown
+    - espresso
+    - chocolate brown
+    - rich brown
+    - mahogany brown
+    - coffee brown
+    - cocoa brown
+    - mocha brown
+    - walnut brown
+    - sable brown
+    - umber brown
+    - ebony brown
+    - hazel brown
+    - truffle brown
+    - brown black
+    - deep brunette
+    - chestnut brown
+    - dark chocolate
+    - dark brown hair
+    - deep brown hair
+    - dark hair
+    - brown hair
+    - espresso hair
+    - mocha hair
+    - deep chocolate brown
+    - rich brunette
+    - dark walnut
+    - dark cocoa
+    - dark sable
+    - deep espresso
+    - dark coffee
+    - dark walnut hair
+    - dark umber
+    - deep brown brunette
+    - dark ebony
+    - dark brown
+    - deep brown
+    - brown brunette
+    - coffee
+    - dark mahogany
+    - dark rich brown
+    - deep coffee brown
+    - mocha
+    - rich dark brown
+    - dark mocha brown
+    - dark chocolate brown
+    - deep espresso brown
+
+- intent: ask_wig_types
+  examples: |
+    - What kind of wigs do you have?
+    - What types of wigs are available?
+    - Can you list the kinds of wigs you offer?
+    - Tell me the different wig styles you have.
+    - What wig varieties do you sell?
+    - What wigs are in stock?
+    - What kinds of wigs are there?
+    - Do you have different types of wigs?
+    - What are the different wigs you offer?
+    - Could you tell me the wig types available?
+    - What wig options do you provide?
+    - What wig styles can I choose from?
+    - What wig collections do you have?
+    - What kinds of wig products do you sell?
+    - What are your available wigs?
+    - Can you list the types of wigs you have?
+    - Could you tell me the styles of wigs available?
+    - What wig ranges do you offer?
+    - What wig varieties can I buy?
+    - What types of wigs do you sell?
+    - What wigs do you have in your catalog?
+    - What wig selections are there?
+    - Do you offer various kinds of wigs?
+    - Can you tell me the different types of wigs you sell?
+    - What are the kinds of wigs available for purchase?
+    - What wig categories do you have?
+    - What are the different styles of wigs you offer?
+    - Do you have a variety of wigs?
+    - Can you tell me the different kinds of wigs you sell?
+    - What types of wig styles do you have?
+    - What wigs do you have available?
+    - What wig options are available in your store?
+    - What are the different wigs you have?
+    - What wig styles can I find here?
+    - Can you list the various wigs you sell?
+    - What kinds of wigs are in your inventory?
+    - What types of wigs can I find here?
+    - What are the available wig options?
+    - Can you tell me the different wig styles you have?
+    - What types of wigs are there to choose from?
+    - What wig styles do you have available?
+    - What wig types can I buy from you?
+    - Can you tell me what wigs are available?
+    - What wigs do you offer?
+    - What are the wig varieties available?
+    - What kinds of wigs can I purchase here?
+    - What wig styles do you carry?
+    - What types of wigs can I get from you?
+    - Can you tell me the available wig types?
+
+- intent: ask_address
+  examples: |
+    - Could you please provide me with your address?
+    - What is the address of your office?
+    - Can you give me the address for the event?
+    - I need the address of your headquarters.
+    - Where are you located?
+    - Could you tell me the address for your store?
+    - Can you share the address for your branch?
+    - What is your physical address?
+    - May I have the address for your main office?
+    - Where can I find your address?
+    - What is the location of your building?
+    - Can you tell me where your office is?
+    - Could you provide the address for your location?
+    - Where is your company situated?
+    - Could you give me directions to your address?
+    - What is the street address of your office?
+    - Can you share your location details?
+    - Where is your headquarters located?
+    - Please tell me the address of your workplace.
+    - Can I get the address for your facility?
+    - Where can I find your business?
+    - What's the address of your corporate office?
+    - Could you share the address of your venue?
+    - May I have your business address?
+    - What address should I use to visit your office?
