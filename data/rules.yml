@@ -4,3 +4,7 @@ rules:
     steps:
       - intent: greet
       - action: utter_greet
+  - rule: activate the default fallback action
+    steps:
+     - intent:  nlu_fallback
+     - action:  action_default_fallback
