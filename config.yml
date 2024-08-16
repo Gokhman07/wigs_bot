@@ -6,56 +6,58 @@ language: en  # Specify the language as English
 # https://rasa.com/docs/rasa/nlu/components/
 pipeline:
   # This component is used to split the text into tokens (words).
-- name: WhitespaceTokenizer
+  - name: WhitespaceTokenizer
 
   # This component is used to convert the text into a format that can be understood by machine learning algorithms.
-- name: LexicalSyntacticFeaturizer
+  - name: LexicalSyntacticFeaturizer
 
   # This component extracts features for the RegexFeaturizer
-- name: RegexFeaturizer
+  - name: RegexFeaturizer
 
   # This component extracts entities using regex patterns.
-- name: RegexEntityExtractor
+  - name: RegexEntityExtractor
 
   # This component is used to convert the text into word vectors using pre-trained embeddings.
-- name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
 
   # This component is used to create additional features based on the character n-grams.
-- name: CountVectorsFeaturizer
-  analyzer: char_wb
-  min_ngram: 1
-  max_ngram: 4
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
 
   # This component is used for intent classification and entity extraction.
-- name: DIETClassifier
-  epochs: 100
+  - name: DIETClassifier
+    epochs: 100
 
   # This component is used for entity extraction using pre-trained word embeddings.
-- name: EntitySynonymMapper
+  - name: EntitySynonymMapper
 
   # This component is used to convert text into word embeddings using pre-trained embeddings.
-- name: ResponseSelector
-  epochs: 100
+  - name: ResponseSelector
+    epochs: 100
 
-  # Add Fallback Classifier to handle low-confidence predictions
-- name: FallbackClassifier
-  threshold: 0.4
-  ambiguity_threshold: 0.1
+  # Add Fallback Classifier to handle low-confidence predictions.
+  - name: FallbackClassifier
+    threshold: 0.6
+    ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   # This policy handles mapping between intents and actions.
-- name: MemoizationPolicy
+  - name: MemoizationPolicy
 
   # This policy handles fallback actions when the confidence of the intent classification is low.
-- name: RulePolicy
-  core_fallback_threshold: 0.4
-  core_fallback_action_name: "action_default_fallback"
+  - name: RulePolicy
+    core_fallback_action_name: "action_default_fallback"
+    core_fallback_threshold: 0.5
+    enable_fallback_prediction: True
 
   # This policy handles actions using a machine learning model.
-- name: TEDPolicy
-  max_history: 5
-  epochs: 100
-  constrain_similarities: true
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+    constrain_similarities: true
+
 assistant_id: 20240803-234726-absolute-duplet
