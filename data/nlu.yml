@@ -384,3 +384,120 @@ nlu:
     - Could you share the address of your venue?
     - May I have your business address?
     - What address should I use to visit your office?
+
+- intent: nlu_fallback
+  examples: |
+    - bvtr
+    - random text
+    - gibberish input
+    - lskdjf
+    - qwerty
+    - rando input
+    - nonsense input
+    - evv 
+    - vrefvrfv 
+    - vvrbvgrv
+- intent: ask_unknown
+  examples: |
+    - what's your type?
+    - what's the weather today?
+    - what's your favorite color?
+    - how old are you?
+    - what's wheatger today?
+    - do you have a name?
+    - what do you do for fun?
+    - where are you from?
+    - what's your favorite movie?
+    - do you like music?
+    - can you tell me a joke?
+    - how do you feel?
+    - what's your favorite food?
+    - do you have any hobbies?
+    - what's your favorite book?
+    - do you like sports?
+    - what's your favorite animal?
+    - what's your favorite hobby?
+    - where do you live?
+    - what's your favorite sport?
+    - what do you do?
+    - do you have a favorite band?
+    - do you have any siblings?
+    - what's your favorite season?
+    - what's your favorite drink?
+    - what time is it?
+    - what's your favorite holiday?
+    - what do you like to do?
+    - do you have any pets?
+    - do you like traveling?
+    - what's your dream job?
+    - what's your biggest fear?
+    - what makes you happy?
+    - what's your star sign?
+    - do you like to read?
+    - what's your favorite subject?
+    - where did you grow up?
+    - what's your favorite dessert?
+    - do you believe in ghosts?
+    - what's your favorite car?
+    - what kind of music do you like?
+    - do you play any instruments?
+    - what's your favorite TV show?
+    - do you have any tattoos?
+    - what's your biggest dream?
+    - what makes you angry?
+    - do you believe in aliens?
+    - what's your favorite ice cream flavor?
+    - what are you afraid of?
+    - what's your favorite song?
+    - do you have a nickname?
+    - what's your favorite fruit?
+    - what's your favorite vegetable?
+    - what's your favorite thing to do on a weekend?
+    - do you like cooking?
+    - what's your favorite time of day?
+    - what do you want to be when you grow up?
+    - what's your favorite candy?
+    - what's your favorite place to visit?
+    - do you like video games?
+    - what's your favorite city?
+    - what's your favorite app?
+    - do you like to dance?
+    - what's your favorite holiday destination?
+    - what's your favorite quote?
+    - what's your favorite smell?
+    - do you like to draw?
+    - what's your favorite planet?
+    - what's your favorite season?
+    - do you like chocolate?
+    - what's your favorite superhero?
+    - what's your favorite type of weather?
+    - do you like swimming?
+    - what's your favorite store?
+    - what's your favorite fashion brand?
+    - do you like hiking?
+    - what's your favorite perfume?
+    - do you like to sing?
+    - what's your favorite fast food?
+    - what's your favorite cereal?
+    - do you like board games?
+    - what's your favorite type of art?
+    - what's your favorite language?
+    - what's your favorite place to eat?
+    - do you like sushi?
+    - what's your favorite snack?
+    - do you like roller coasters?
+    - what's your favorite flower?
+    - what's your favorite ice cream topping?
+    - do you like puzzles?
+    - what's your favorite holiday activity?
+    - what's your favorite pizza topping?
+    - what's your favorite type of tea?
+    - do you like snow?
+    - what's your favorite bird?
+    - what's your favorite magazine?
+    - do you like camping?
+    - what's your favorite type of bread?
+    - do you like roller skating?
+    - what's your favorite sandwich?
+    - what's your favorite insect?
+    - do you like fishing?
