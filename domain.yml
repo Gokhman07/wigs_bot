@@ -34,7 +34,6 @@ responses:
   utter_ask_unknown:
     - text: "I can't answer on this question"
 
-
 actions:
 - action_ask_price
 - action_ask_wig_types
