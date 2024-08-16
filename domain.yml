@@ -1,10 +1,11 @@
 version: "3.1"
 intents:
-- greetY
+- greet
 
 - ask_price
 - ask_wig_types
 - ask_address
+- ask_unknown
 
 entities:
 - category
@@ -30,8 +31,11 @@ responses:
     - text: "We have a variety of wigs including Dark Brown, Dark Blonde, Medium, Platinum, and more."
   utter_address:
     - text: "14 Shmager Street, Jerusalem. 02-6423576"
+  utter_ask_unknown:
+    - text: "I can\'t answer on this question"
 
 actions:
 - action_ask_price
 - action_ask_wig_types
+- action_default_fallback
 
