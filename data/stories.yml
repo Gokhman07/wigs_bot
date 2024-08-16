@@ -24,8 +24,9 @@ stories:
     steps:
       - intent: ask_address
       - action: utter_address
-      
+
   - story: user asks unknown question
     steps:
       - intent: ask_unknown
       - action: utter_ask_unknown
+
