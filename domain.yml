@@ -32,7 +32,8 @@ responses:
   utter_address:
     - text: "14 Shmager Street, Jerusalem. 02-6423576"
   utter_ask_unknown:
-    - text: "I can\'t answer on this question"
+    - text: "I can't answer on this question"
+
 
 actions:
 - action_ask_price
