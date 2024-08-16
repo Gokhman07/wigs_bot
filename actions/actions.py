@@ -1,8 +1,8 @@
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import UserUtteranceReverted
 import random
+from rasa_sdk.events import UserUtteranceReverted
 
 class ActionAskPrice(Action):
 
@@ -117,7 +117,6 @@ class ActionAskWigTypes(Action):
         dispatcher.utter_message(text=response)
 
         return []
-from rasa_sdk import Action
 
 
 class ActionDefaultFallback(Action):
@@ -125,7 +124,5 @@ class ActionDefaultFallback(Action):
         return "action_default_fallback"
 
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message(text="Sorry, I can\'t answer on this question right now.")
+        dispatcher.utter_message(text="Sorry, I didn't understand that. Can you please rephrase?")
         return [UserUtteranceReverted()]
-
-
