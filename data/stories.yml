@@ -5,22 +5,22 @@ stories:
       - intent: greet
       - action: utter_greet
 
-  - story: ask price of a product
+  - story: ask price in general
+    steps:
+      - intent: ask_price_general
+      - action: utter_general_price
+
+  - story: ask specific price
     steps:
       - intent: ask_price
-      - action: action_ask_price
+      - action: utter_share_whatsapp
 
   - story: user asks for wig types
     steps:
       - intent: ask_wig_types
       - action: utter_wig_types
 
-  - story: user asks for price of available wigs
-    steps:
-      - intent: ask_price
-      - action: action_ask_price
-
-  - story: ask price of adress
+  - story: ask for address
     steps:
       - intent: ask_address
       - action: utter_address
@@ -30,3 +30,7 @@ stories:
       - intent: ask_unknown
       - action: utter_ask_unknown
 
+  - story: user asks meeet yafi
+    steps:
+      - intent: ask_meeting_time_yafi
+      - action: utter_yafi_info

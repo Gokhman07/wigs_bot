@@ -150,9 +150,63 @@ nlu:
     - How much is the price of [Green](category) up to [10](length) cm?
     - Price of [Orange](category) up to [25](length) cm?
 
+- intent: ask_price_general
+  examples: |
+      - What's the price of this wig?
+      - How much does this wig cost?
+      - Can you tell me the price of this wig?
+      - What's the cost of the wig?
+      - How much for this wig?
+      - What is the price of the wig?
+      - How much is this wig?
+      - Could you tell me the price of this wig?
+      - How much does it cost to buy this wig?
+      - What's the price tag on this wig?
+      - Can you tell me how much this wig costs?
+      - What's the price of the wig in your store?
+      - How much is the wig selling for?
+      - Can you tell me the wig's price?
+      - What will this wig cost me?
+      - What's the cost of this particular wig?
+      - How much does the wig go for?
+      - What's the current price of the wig?
+      - What is the cost of the wig?
+      - How much should I pay for this wig?
+      - How much does the wig cost?
+      - What's the price of that wig?
+      - How much is the cost of the wig?
+      - Can you tell me the price tag on this wig?
+      - What does the wig cost?
+      - How much will I need to pay for the wig?
+      - How much do you charge for this wig?
+      - What's the wig's price?
+      - What’s the wig selling for?
+      - How much does the wig cost in your store?
+      - Can you provide the price of the wig?
+      - How much is the wig priced at?
+      - What's the selling price of the wig?
+      - What's the wig’s cost?
+      - How much does the wig go for?
+      - What’s the price of the wig you're selling?
+      - How much do I need to pay for this wig?
+      - What’s the asking price for the wig?
+      - How much money is this wig?
+      - What's the wig priced at?
+      - How much does the wig run?
+      - What price is the wig listed for?
+      - How much does this particular wig cost?
+      - What's the cost of the wig you're selling?
+      - How much is the price of the wig in your shop?
+      - How much does it cost to buy the wig?
+      - Can you tell me how much the wig is?
+      - What’s the total price of the wig?
+      - What’s the wig's price tag?
+
+
 - synonym: Dark Blonde
   examples: |
     - white blonde
+    - blonde
     - pale blonde
     - light blonde
     - ivory blonde
@@ -501,3 +555,56 @@ nlu:
     - what's your favorite sandwich?
     - what's your favorite insect?
     - do you like fishing?
+ 
+- intent: ask_meeting_time_yafi
+  examples: |
+
+      - When can I meet Yafi?
+      - What time is Yafi available?
+      - At what time can I meet Yafi?
+      - Can I meet Yafi today?
+      - Is Yafi free now?
+      - Can I see Yafi this afternoon?
+      - When is Yafi free for a meeting?
+      - What’s Yafi’s schedule like today?
+      - Can I meet Yafi tomorrow morning?
+      - Is Yafi available for a meeting now?
+      - What time can I see Yafi?
+      - When is the best time to meet Yafi?
+      - What’s a good time to meet Yafi?
+      - Can I schedule a meeting with Yafi now?
+      - When will Yafi be free?
+      - Can Yafi meet with me this evening?
+      - Is Yafi available this afternoon?
+      - Is Yafi free later today?
+      - When can I book a meeting with Yafi?
+      - When will Yafi have time for a meeting?
+      - Can Yafi meet with me this weekend?
+      - Is Yafi free tomorrow?
+      - Is Yafi available to meet today?
+      - Can I have a meeting with Yafi this evening?
+      - When can Yafi meet me?
+      - What time will Yafi be available?
+      - Can I meet with Yafi tomorrow?
+      - When can I arrange a meeting with Yafi?
+      - What time can I meet with Yafi?
+      - Is Yafi available to meet now?
+      - When can Yafi and I meet?
+      - Can I book a time to meet Yafi?
+      - Is Yafi available for a meeting this morning?
+      - What time can I schedule a meeting with Yafi?
+      - When is Yafi free to meet?
+      - Can I meet Yafi later today?
+      - When can I see Yafi?
+      - What’s a good time to schedule a meeting with Yafi?
+      - Can Yafi meet with me tomorrow?
+      - Is Yafi free next week?
+      - Can I arrange a meeting with Yafi this afternoon?
+      - Is Yafi free this evening?
+      - When can Yafi meet with me?
+      - What time can I meet Yafi today?
+      - When is Yafi available next?
+      - When can I meet with Yafi next?
+      - Can I see Yafi tomorrow?
+      - When will Yafi be available for a meeting?
+      - Is Yafi available right now?

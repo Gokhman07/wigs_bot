@@ -6,6 +6,8 @@ intents:
 - ask_wig_types
 - ask_address
 - ask_unknown
+- ask_meeting_time_yafi
+- ask_price_general
 
 entities:
 - category
@@ -33,7 +35,16 @@ responses:
     - text: "14 Shmager Street, Jerusalem. 02-6423576"
   utter_ask_unknown:
     - text: "I can't answer on this question"
-
+  utter_general_price:
+    - text: "Our prices are from
+4000$-13.000$ usa dolars 
+( depends on color,length, texture etc) \n
+We use only virgin natural extremely high quality hair
+Our product lasts for years"
+  utter_share_whatsapp: 
+    - text: "If you want more details, you can reach out to me on WhatsApp at +972 2-642-3576"
+  utter_yafi_info: 
+    - text: "The meeting is not with Yafi herself, but with the relevant team of experts for ordering a new wig, design, or repair. Yafi is present, overseeing and ensuring that every client receives exactly what she expects."
 actions:
 - action_ask_price
 - action_ask_wig_types
