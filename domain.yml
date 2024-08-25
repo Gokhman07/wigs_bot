@@ -37,14 +37,14 @@ responses:
     - text: "I can't answer on this question"
   utter_general_price:
     - text: "Our prices are from
-4000$-13.000$ usa dolars 
+4000$-13.000$ usa dolars.
 ( depends on color,length, texture etc) \n
-We use only virgin natural extremely high quality hair
-Our product lasts for years"
+We use only virgin natural extremely high quality hair.\n
+Our product lasts for years."
   utter_share_whatsapp: 
     - text: "If you want more details, you can reach out to me on WhatsApp at +972 2-642-3576"
-  utter_yafi_info: 
-    - text: "The meeting is not with Yafi herself, but with the relevant team of experts for ordering a new wig, design, or repair. Yafi is present, overseeing and ensuring that every client receives exactly what she expects."
+  utter_yafi_info:
+    - text: "All our appointments are schedule with our very experienced team, Yafi is there present, on top of All the production, making sure each client gets the perfect wig , happy also to help the clients with anything they need."
 actions:
 - action_ask_price
 - action_ask_wig_types
