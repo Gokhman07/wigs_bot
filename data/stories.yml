@@ -39,4 +39,9 @@ stories:
     steps:
       - intent: ask_how_to_set_up_meeting
       - action: utter_meet_info
+      
+  - story: ask for salon hours
+    steps:
+      - intent: inquire_salon_hours
+      - action: utter_salon_table
   
