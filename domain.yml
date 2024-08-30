@@ -8,6 +8,7 @@ intents:
 - ask_unknown
 - ask_meeting_time_yafi
 - ask_price_general
+- ask_how_to_set_up_meeting
 
 entities:
 - category
@@ -45,6 +46,8 @@ Our product lasts for years."
     - text: "If you want more details, you can reach out to me on WhatsApp at +972 2-642-3576"
   utter_yafi_info:
     - text: "All our appointments are schedule with our very experienced team, Yafi is there present, on top of All the production, making sure each client gets the perfect wig , happy also to help the clients with anything they need."
+  utter_meet_info:
+    - text: "14 Shamgar St., Jerusalem \n\n Phone & Whatsapp: +972-2-642-3576"
 actions:
 - action_ask_price
 - action_ask_wig_types
