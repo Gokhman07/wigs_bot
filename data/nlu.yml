@@ -651,7 +651,7 @@ nlu:
       - How can I start setting up a meeting?
       
 - intent: inquire_salon_hours
-    examples: |
+  examples: |
       - When is the salon open?
       - What are the working hours in the salon?
       - What days does the salon work and what hours?
