@@ -608,3 +608,44 @@ nlu:
       - Can I see Yafi tomorrow?
       - When will Yafi be available for a meeting?
       - Is Yafi available right now?
+- intent: ask_how_to_set_up_meeting
+  examples: |
+      - How can I set up a meeting?
+      - How do I set up a meeting?
+      - How to set up a meeting?
+      - What’s the process to set up a meeting?
+      - How can I organize a meeting?
+      - How do I arrange a meeting?
+      - Can you tell me how to set up a meeting?
+      - What do I need to do to set up a meeting?
+      - How do I schedule a meeting?
+      - How can I book a meeting?
+      - What's the best way to set up a meeting?
+      - How do I go about setting up a meeting?
+      - How should I set up a meeting?
+      - How do I go about scheduling a meeting?
+      - How can I arrange a meeting?
+      - Can you explain how to set up a meeting?
+      - What steps do I take to set up a meeting?
+      - How do I initiate setting up a meeting?
+      - What’s the procedure to set up a meeting?
+      - How do I start setting up a meeting?
+      - How do I create a meeting schedule?
+      - What’s the best way to arrange a meeting?
+      - How can I create a meeting schedule?
+      - What’s involved in setting up a meeting?
+      - How can I organize a meeting?
+      - How do I go about arranging a meeting?
+      - What do I need to do to organize a meeting?
+      - Can you show me how to set up a meeting?
+      - How do I book a meeting?
+      - What do I need to set up a meeting?
+      - How do I begin setting up a meeting?
+      - How do I prepare to set up a meeting?
+      - What’s the easiest way to set up a meeting?
+      - What do I do to set up a meeting?
+      - How do I plan to set up a meeting?
+      - What’s the process for setting up a meeting?
+      - How do I get started with setting up a meeting?
+      - How do I go about organizing a meeting?
+      - How can I start setting up a meeting?
