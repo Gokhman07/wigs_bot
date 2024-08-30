@@ -649,3 +649,45 @@ nlu:
       - How do I get started with setting up a meeting?
       - How do I go about organizing a meeting?
       - How can I start setting up a meeting?
+      
+- intent: inquire_salon_hours
+    examples: |
+      - When is the salon open?
+      - What are the working hours in the salon?
+      - What days does the salon work and what hours?
+      - Are you working tomorrow?
+      - What time does the salon open?
+      - What time does the salon close?
+      - What are the opening hours of the salon?
+      - What are the closing hours of the salon?
+      - Is the salon open tomorrow?
+      - What are the salon hours on weekends?
+      - What days is the salon open?
+      - Is the salon open on holidays?
+      - Can you tell me the salon’s working hours?
+      - When does the salon start working?
+      - When does the salon stop working?
+      - What time do you open the salon?
+      - What time do you close the salon?
+      - Are you open on Sunday?
+      - Do you work on Saturdays?
+      - Is the salon open today?
+      - Are you working on the weekend?
+      - What time are you open tomorrow?
+      - When can I visit the salon?
+      - What are your business hours?
+      - When can I make an appointment?
+      - When do you open?
+      - When do you close?
+      - Are you open on weekdays?
+      - What are your hours for the next week?
+      - What are the working hours during the week?
+      - Is the salon open during the evening?
+      - Do you work late hours?
+      - When are you available?
+      - Is the salon open in the morning?
+      - Do you have evening hours?
+      - What are your opening times tomorrow?
+      - Can I come in tomorrow?
+      - When is the earliest I can visit the salon?
+      - When does the salon close tomorrow?
