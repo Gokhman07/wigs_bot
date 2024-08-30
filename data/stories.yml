@@ -34,3 +34,9 @@ stories:
     steps:
       - intent: ask_meeting_time_yafi
       - action: utter_yafi_info
+  
+  - story: ask for meeting
+    steps:
+      - intent: ask_how_to_set_up_meeting
+      - action: meet_info
+  
