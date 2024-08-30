@@ -30,3 +30,10 @@ stories:
       - intent: ask_unknown
       - action: utter_ask_unknown
 
+  - story: ask for meeting
+    steps:
+      - intent: ask_how_to_set_up_meeting
+      - action: meet_info
+  
+  
+
