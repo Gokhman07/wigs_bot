@@ -9,7 +9,7 @@ intents:
 - ask_meeting_time_yafi
 - ask_price_general
 - ask_how_to_set_up_meeting
-
+- inquire_salon_hours
 entities:
 - category
 - length
@@ -47,7 +47,9 @@ Our product lasts for years."
   utter_yafi_info:
     - text: "All our appointments are schedule with our very experienced team, Yafi is there present, on top of All the production, making sure each client gets the perfect wig , happy also to help the clients with anything they need."
   utter_meet_info:
-    - text: "14 Shamgar St., Jerusalem \n\n Phone & Whatsapp: +972-2-642-3576"
+    - text: "14 Shamgar St., Jerusalem \n\nPhone & Whatsapp: +972-2-642-3576"
+  utter_salon_table: 
+    - text: "In general, it is days from Sunday to Friday, between the hours of 09:00 am and 03:00 pm. Except for holidays and holiday eves. There is a concentrated vacation in August, and in Pesach a few days before it is closed."
 actions:
 - action_ask_price
 - action_ask_wig_types
