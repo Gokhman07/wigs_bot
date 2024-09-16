@@ -691,3 +691,55 @@ nlu:
       - Can I come in tomorrow?
       - When is the earliest I can visit the salon?
       - When does the salon close tomorrow?
+- intent: book_appointment
+  examples: |
+    - Can I please book an appointment?
+    - I would like to book an appointment.
+    - Can I make an appointment to see new wigs?
+    - Can I book an appointment for tomorrow?
+    - I need to schedule an appointment.
+    - I want to book an appointment.
+    - Can you book an appointment for me?
+    - Please help me book an appointment.
+    - I'd like to make an appointment to visit.
+    - I want to schedule an appointment to see new wigs.
+    - I need to book an appointment as soon as possible.
+    - Can I book a wig consultation appointment?
+    - Can you schedule me in for an appointment?
+    - Can I arrange an appointment to see wigs?
+    - Can I get an appointment to try on wigs?
+    - Is there a way I can make an appointment today?
+    - I want to book an appointment for next week.
+    - Can I make a booking to see the new wigs collection?
+    - I’d like to book a wig fitting appointment.
+    - Can I please make an appointment?
+    - Can I book an appointment to check out wigs?
+    - How do I book an appointment?
+    - Is there any way I can book an appointment with you?
+    - Can I reserve an appointment?
+    - Please book an appointment for me to try on wigs.
+    - I need to book an appointment for a wig fitting.
+    - When is the next available appointment?
+    - Can I make an appointment for today?
+    - I want to schedule an appointment to meet with you.
+    - Can I book an appointment for a wig fitting consultation?
+    - I would like to schedule a wig consultation appointment.
+    - Could you please schedule an appointment for me?
+    - Can I book an appointment to check out the new wigs?
+    - I want to make an appointment for next week.
+    - Can you help me book an appointment to see wigs?
+    - How can I book an appointment for a wig fitting?
+    - Please schedule an appointment for me.
+    - I would like to arrange an appointment to try on wigs.
+    - I’d like to make a booking for an appointment.
+    - I need to book an appointment for a consultation.
+    - Can I book an appointment for the weekend?
+    - Can you assist me in booking an appointment?
+    - I would like to schedule an appointment for a wig consultation.
+    - When can I schedule an appointment to see wigs?
+    - Can I reserve a time for a wig appointment?
+    - I’d like to book an appointment to try on new wigs.
+    - How do I make an appointment to check out wigs?
+    - Can I book an appointment with you this week?
+    - I need to make an appointment for next week.
+    - Can you help me schedule an appointment to try on wigs?

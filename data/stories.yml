@@ -44,4 +44,9 @@ stories:
     steps:
       - intent: inquire_salon_hours
       - action: utter_salon_table
-  
+
+  - story: make an appointment
+    steps:
+      - intent: book_appointment
+      - action: utter_appoiny_info
+
