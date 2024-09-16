@@ -11,6 +11,7 @@ intents:
 - ask_how_to_set_up_meeting
 - inquire_salon_hours
 - book_appointment
+- ask_phone_number
 entities:
 - category
 - length
@@ -53,6 +54,9 @@ Our product lasts for years."
     - text: "In general, it is days from Sunday to Friday, between the hours of 09:00 am and 03:00 pm. Except for holidays and holiday eves. There is a concentrated vacation in August, and in Pesach a few days before it is closed."
   utter_appoiny_info: 
     - text : "Hi,  to book an appointment please call our salon Sunday-Thursday between 9:00-15:00."
+  give_utter_number: 
+    - text : "Phone & Whatsapp: +972-2-642-3576."
+
 
 
 actions:

@@ -49,4 +49,9 @@ stories:
     steps:
       - intent: book_appointment
       - action: utter_appoiny_info
+  
+  - story: ask  phone number
+    steps:
+      - intent: ask_phone_number
+      - action: give_utter_number
 

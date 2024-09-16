@@ -743,3 +743,56 @@ nlu:
     - Can I book an appointment with you this week?
     - I need to make an appointment for next week.
     - Can you help me schedule an appointment to try on wigs?
+
+- intent: ask_phone_number
+  examples: |
+      - What is the phone number of the salon?
+      - Can you give me the phone number of the salon?
+      - I need the salon's phone number.
+      - How can I contact the salon?
+      - Give me the salon's phone number.
+      - Can I have the salon's contact number?
+      - What's the contact number of the salon?
+      - How do I call the salon?
+      - Do you have the phone number of the salon?
+      - I want the salon's number.
+      - What is the salon's contact number?
+      - Could you tell me the salon's phone number?
+      - Please provide the phone number of the salon.
+      - How can I call the salon?
+      - Can you tell me the salon's phone number?
+      - May I know the phone number of the salon?
+      - What is the salon's number?
+      - I need to call the salon, what's the number?
+      - Can you share the salon's phone number?
+      - Could you give me the salon's contact number?
+      - What's the phone number for the salon?
+      - Do you know the salon's contact number?
+      - I need the phone number for the salon.
+      - Can you provide the salon's number?
+      - What's the number for the salon?
+      - How do I reach the salon by phone?
+      - Tell me the phone number for the salon.
+      - What is the contact number of the salon?
+      - Can you give me the contact number for the salon?
+      - How can I get in touch with the salon by phone?
+      - Could I get the phone number for the salon?
+      - Do you have the salon's contact number?
+      - I need to know the phone number of the salon.
+      - How do I contact the salon by phone?
+      - What is the phone contact for the salon?
+      - How do I reach the salon's phone line?
+      - Tell me how to call the salon.
+      - What's the direct phone number of the salon?
+      - Can you let me know the salon's phone number?
+      - What is the best phone number to reach the salon?
+      - I need the contact details for the salon.
+      - What number should I call to reach the salon?
+      - Can you provide me with the salon's phone contact?
+      - How can I get the salon's phone number?
+      - I'd like the phone number of the salon.
+      - What's the salon's landline number?
+      - Could you give me the number for the salon?
+      - What's the best way to call the salon?
+      - Do you have a phone contact for the salon?
+      - How do I get the salon's contact number?
