@@ -796,3 +796,175 @@ nlu:
       - What's the best way to call the salon?
       - Do you have a phone contact for the salon?
       - How do I get the salon's contact number?
+
+
+
+- intent: inquire_wig
+  examples: |
+      - I want to inquire about my wig
+      - Can you give me details about my wig?
+      - What's the status of my wig?
+      - I'd like to ask about my wig
+      - I want to inquire about a wig order
+      - Tell me about my wig
+      - I have a question about my wig
+      - Can you check my wig order status?
+      - I have a question regarding my wig
+      - Can you provide an update about my wig?
+      - I want to ask about my wig
+      - Can you tell me something about my wig?
+      - I would like information about my wig
+      - How is my wig order coming along?
+      - Any updates on my wig?
+      - Can I get an update on my wig?
+      - Tell me the status of my wig
+      - I want to inquire about the wig I ordered
+      - What’s the status of the wig I ordered?
+      - Can I get details on my wig?
+      - What’s the latest update on my wig?
+      - Is my wig ready?
+      - Can you tell me if my wig is ready?
+      - I’d like to check on my wig
+      - How’s my wig doing?
+      - When will my wig be ready?
+      - Please check the status of my wig
+      - I’d like to know more about my wig order
+      - Can you give me an update on the wig?
+      - Has my wig been processed yet?
+      - What’s happening with my wig?
+      - When can I expect my wig to be ready?
+      - I need to ask about my wig
+      - Could you provide an update on my wig order?
+      - What’s the progress on my wig?
+      - Can you tell me how my wig order is progressing?
+      - I want to ask about the wig I ordered
+      - What’s the current status of my wig?
+      - How is the wig order going?
+
+- intent: new_wig_inquiry
+  examples: |
+      - I want a new wig
+      - I’m interested in purchasing a new wig
+      - Can you help me with a new wig?
+      - I would like to order a new wig
+      - I'm looking to buy a new wig
+      - I'd like to know about the new wigs
+      - Can I order a new wig?
+      - How do I get a new wig?
+      - I need to buy a new wig
+      - Can you assist me with buying a new wig?
+      - Where can I order a new wig?
+      - I want to purchase a new wig
+      - I’m looking for a new wig
+      - Can you guide me through buying a new wig?
+      - What are my options for a new wig?
+      - How can I buy a new wig?
+      - How do I purchase a new wig?
+      - I need help with getting a new wig
+      - What new wigs do you have available?
+      - Do you sell new wigs?
+      - I need information about buying a new wig
+      - What’s the process for ordering a new wig?
+      - Can I get some details on buying a new wig?
+      - I’d like to place an order for a new wig
+      - Can you tell me how to buy a new wig?
+      - I want to place an order for a new wig
+      - Can you assist me with purchasing a new wig?
+      - What’s the price for a new wig?
+      - How much is a new wig?
+      - How do I order a new wig?
+      - Can I place an order for a new wig online?
+      - Can you help me purchase a new wig online?
+      - How do I request a new wig?
+      - Can I get help with ordering a new wig?
+      - I want to place an order for a new wig now
+      - Can I inquire about a new wig?
+      - I’m looking to buy a new wig from your shop
+      - What’s the price range for new wigs?
+      - How do I get a wig made?
+
+- intent: wig_under_repair_inquiry
+  examples: |
+      - My wig is under repair
+      - How long will the wig repair take?
+      - What’s the status of my wig repair?
+      - I need to know about the repair of my wig
+      - Is my wig repair finished?
+      - Can you tell me about my wig repair?
+      - When will my wig repair be done?
+      - How long do wig repairs take?
+      - When can I expect my wig to be repaired?
+      - Has my wig been repaired yet?
+      - I’d like an update on my wig repair
+      - Can you check the status of my wig repair?
+      - Is my wig still under repair?
+      - How much longer will my wig repair take?
+      - Can you give me a timeline for the wig repair?
+      - What’s the progress of my wig repair?
+      - Is my wig repair ready?
+      - When will my wig repair be completed?
+      - I want to ask about my wig repair status
+      - How is the repair of my wig going?
+      - Can you provide an update on my wig repair?
+      - Can you tell me how much longer for my wig repair?
+      - I need an update on the repair of my wig
+      - Has my wig repair started yet?
+      - Can you give me details on the repair process?
+      - Is there a delay in my wig repair?
+      - When should I expect my repaired wig back?
+      - Will my wig be repaired soon?
+      - Can you tell me how my wig repair is progressing?
+      - How long does it usually take for a wig repair?
+      - Is there an issue with my wig repair?
+      - How long before my wig is fixed?
+      - Can you check on my wig repair for me?
+      - Is the repair of my wig almost done?
+      - Can you provide the status of my wig repair?
+      - I need more information about my wig repair
+      - What is the timeline for wig repairs?
+      - When will my wig be fixed?
+      - How much time is left for my wig repair?
+
+- intent: wig_wash_and_set_inquiry
+  examples: |
+      - Can I get a wash and set for my wig?
+      - I’d like to wash and set my wig
+      - How long does it take for a wig wash and set?
+      - When will my wig wash and set be done?
+      - What’s the process for a wig wash and set?
+      - Can I book a wig wash and set?
+      - How long does a wig wash and set take to finish?
+      - Can you help with a wig wash and set?
+      - I want to ask about a wig wash and set
+      - How do I arrange a wig wash and set?
+      - I need to get my wig washed and set
+      - When will my wig be ready after wash and set?
+      - How long does a wig wash take?
+      - Can I set up a wig wash and set appointment?
+      - What’s the timing for a wig wash and set?
+      - Can you tell me how long it will take to wash my wig?
+      - I’d like to inquire about a wig wash and set
+      - Can you check the status of my wig wash and set?
+      - Can I get details about my wig wash and set?
+      - I want to know more about wig wash and set services
+      - How soon can I get my wig washed and set?
+      - Is my wig ready after wash and set?
+      - How long will my wig take to wash and set?
+      - Can you give me a status update on my wig wash?
+      - I want to know the duration for washing and setting a wig
+      - What’s the price for a wig wash and set?
+      - How much does a wig wash and set cost?
+      - I want to book a wash and set for my wig
+      - When will my wig be available after a wash and set?
+      - How much time will the wig wash and set take?
+      - Can you check on my wig wash and set appointment?
+      - When can I get my wig washed and set?
+      - Can you wash and set my wig?
+      - I need help with washing and setting my wig
+      - How soon will my wig be washed and set?
+      - How do I get a wig wash and set service?
+      - I want to ask about the timing of my wig wash
+      - Can you provide details on wig wash and set services?
+      - When will my wig be done with the wash and set?
+      - What’s the duration for washing and setting a wig?
+
