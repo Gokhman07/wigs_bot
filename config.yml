@@ -3,7 +3,6 @@ version: "3.1"
 language: en  # Specify the language as English
 
 # Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
 pipeline:
   # This component is used to split the text into tokens (words).
   - name: WhitespaceTokenizer
@@ -29,7 +28,11 @@ pipeline:
   # This component is used for intent classification and entity extraction.
   - name: DIETClassifier
     epochs: 100
-
+    constrain_similarities: true  # Ensure constraints between similar intents
+    intent_classification: True
+    entity_recognition: True
+    ranking_length: 5  # Rank top 5 intents to handle ambiguity
+    
   # This component is used for entity extraction using pre-trained word embeddings.
   - name: EntitySynonymMapper
 
@@ -43,7 +46,6 @@ pipeline:
     ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
 policies:
   # This policy handles mapping between intents and actions.
   - name: MemoizationPolicy
