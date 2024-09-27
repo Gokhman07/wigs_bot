@@ -53,5 +53,26 @@ stories:
   - story: ask  phone number
     steps:
       - intent: ask_phone_number
-      - action: give_utter_number
+      - action: utter_give_number
+
+  - story: new wig inquiry story
+    steps:
+      - intent: new_wig_inquiry
+      - action: utter_new_wig_inquiry
+
+  - story: wig under repair inquiry story
+    steps:
+      - intent: wig_under_repair_inquiry
+      - action: utter_wig_under_repair_inquiry
+
+  - story: wig wash and set inquiry story
+    steps:
+      - intent: wig_wash_and_set_inquiry
+      - action: utter_wig_wash_and_set_inquiry
+  
+  - story: Thank you reply
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you
+  
 

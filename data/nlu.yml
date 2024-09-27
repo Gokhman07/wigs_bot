@@ -968,3 +968,64 @@ nlu:
       - When will my wig be done with the wash and set?
       - What’s the duration for washing and setting a wig?
 
+- intent: thank_you
+    examples: |
+      - thank you
+      - thanks a lot
+      - I appreciate it
+      - thank you so much
+      - thanks
+      - thx
+      - ty
+      - tnx
+      - thnx
+      - much appreciated
+      - I am grateful
+      - thank you for your help
+      - I appreciate your help
+      - thanks for your time
+      - thanks, I really appreciate it
+      - thank you, that was very helpful
+      - cheers, thank you!
+      - I can't thank you enough
+      - you're the best, thank you!
+      - many thanks
+      - thank you for your assistance
+      - I truly appreciate your help
+      - a big thank you
+      - thanks for the info
+      - I really appreciate it, thanks
+      - thank you for all your help
+      - you've been a great help, thank you!
+      - thank you kindly
+      - much obliged
+      - I appreciate your support
+      - you've been very helpful, thank you
+      - that was very helpful, thank you!
+      - I couldn't have done it without you, thanks!
+      - thank you for everything
+      - you have my gratitude, thank you!
+      - thank you, that's exactly what I needed
+      - you've been awesome, thank you!
+      - thanks for clarifying that
+      - I'm really thankful for your help
+      - I appreciate it, thank you
+      - thanks a ton!
+      - you're amazing, thanks!
+      - thank you, you've been a great help
+      - thanks a bunch
+      - big thanks
+      - I owe you one, thank you!
+      - I am deeply grateful, thank you!
+      - you have my thanks
+      - thanks for getting back to me
+      - I can't thank you enough for your help
+      - your help means a lot to me, thanks
+      - that was so helpful, thank you
+      - thank you, I truly appreciate it
+      - I appreciate all your help, thanks!
+      - thank you for everything you've done
+
+
+
+

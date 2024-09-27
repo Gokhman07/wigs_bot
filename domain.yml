@@ -16,6 +16,7 @@ intents:
 - new_wig_inquiry
 - wig_under_repair_inquiry
 - wig_wash_and_set_inquiry
+- thank_you
 entities:
 - category
 - length
@@ -57,7 +58,7 @@ Our product lasts for years."
   utter_salon_table: 
     - text: "In general, it is days from Sunday to Friday, between the hours of 09:00 am and 03:00 pm. Except for holidays and holiday eves. There is a concentrated vacation in August, and in Pesach a few days before it is closed."
   utter_appoiny_info: 
-    - text : "Hi,  to book an appointment please call our salon Sunday-Thursday between 9:00-15:00."
+    - text : "Hi,  to book, change or reschedule an appointment please call our salon Sunday-Thursday between 9:00-15:00."
   utter_give_number: 
     - text : "Phone & Whatsapp: +972-2-642-3576."
   utter_ask_wig_type:
@@ -72,7 +73,8 @@ Our product lasts for years."
   utter_wig_wash_and_set_inquiry:
     - text: "Wash and sets are ready within 1-2 days. You will get a call when it's ready."
 
-
+  utter_thank_you:
+    - text: "You're welcome! Let me know if you need anything else."
 
 
 actions:
