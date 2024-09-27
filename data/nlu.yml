@@ -969,7 +969,7 @@ nlu:
       - What’s the duration for washing and setting a wig?
 
 - intent: thank_you
-    examples: |
+  examples: |
       - thank you
       - thanks a lot
       - I appreciate it
