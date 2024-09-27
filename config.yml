@@ -4,17 +4,13 @@ language: en  # Specify the language as English
 
 # Configuration for Rasa NLU.
 pipeline:
-  # This component corrects common spelling mistakes.
-  - name: SpellChecker
-    language: en  # Specify the language (English)
-
-  # This component is used to split the text into tokens (words).
+  # This component splits the text into tokens (words).
   - name: WhitespaceTokenizer
 
-  # This component is used to convert the text into a format that can be understood by machine learning algorithms.
+  # This component converts the text into a format that can be understood by machine learning algorithms.
   - name: LexicalSyntacticFeaturizer
 
-  # This component extracts features for the RegexFeaturizer
+  # This component extracts features for the RegexFeaturizer.
   - name: RegexFeaturizer
 
   # This component extracts entities using regex patterns.
@@ -22,8 +18,9 @@ pipeline:
 
   # This component is used to convert the text into word vectors using pre-trained embeddings.
   - name: CountVectorsFeaturizer
+    OOV_token: "[UNK]"  # This will help the model deal with unknown words (e.g., misspelled words).
 
-  # This component is used to create additional features based on the character n-grams.
+  # This component adds additional n-gram features to deal with character-level differences.
   - name: CountVectorsFeaturizer
     analyzer: char_wb
     min_ngram: 1
@@ -32,35 +29,36 @@ pipeline:
   # This component is used for intent classification and entity extraction.
   - name: DIETClassifier
     epochs: 100
-    constrain_similarities: true  # Ensure constraints between similar intents
     intent_classification: True
     entity_recognition: True
-    ranking_length: 5  # Rank top 5 intents to handle ambiguity
+    constrain_similarities: True  # Helps to reduce confusion between similar intents.
+    ranking_length: 5  # Ranks the top 5 intents to handle ambiguous or multiple intent scenarios.
+    use_masked_language_model: False  # Optimizes for simpler intent classification.
 
-  # This component is used for entity extraction using pre-trained word embeddings.
+  # This component maps similar entities to a standard value.
   - name: EntitySynonymMapper
 
-  # This component is used to convert text into word embeddings using pre-trained embeddings.
+  # This component selects a response based on the user intent.
   - name: ResponseSelector
     epochs: 100
 
-  # Add Fallback Classifier to handle low-confidence predictions.
+  # Fallback classifier to handle low-confidence predictions and ambiguous intents.
   - name: FallbackClassifier
     threshold: 0.6
     ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
 policies:
-  # This policy handles mapping between intents and actions.
+  # Memoization policy to handle known conversation paths.
   - name: MemoizationPolicy
 
-  # This policy handles fallback actions when the confidence of the intent classification is low.
+  # Rule policy to handle rule-based predictions.
   - name: RulePolicy
     core_fallback_action_name: "action_default_fallback"
     core_fallback_threshold: 0.5
     enable_fallback_prediction: True
 
-  # This policy handles actions using a machine learning model.
+  # TED policy to handle more complex dialog management with ML.
   - name: TEDPolicy
     max_history: 5
     epochs: 100
