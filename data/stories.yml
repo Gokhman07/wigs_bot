@@ -59,6 +59,12 @@ stories:
     steps:
       - intent: new_wig_inquiry
       - action: utter_new_wig_inquiry
+  
+  - story: status wig inquiry story
+    steps:
+      - intent: inquire_wig
+      - action: utter_new_wig_inquiry
+
 
   - story: wig under repair inquiry story
     steps:

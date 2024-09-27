@@ -4,7 +4,28 @@ rules:
     steps:
       - intent: greet
       - action: utter_greet
+      
   - rule: activate the default fallback action
     steps:
      - intent:  nlu_fallback
      - action:  action_default_fallback
+
+  - rule: Ask user for wig type clarification
+    steps:
+      - intent: inquire_wig
+      - action: utter_ask_wig_type
+
+  - rule: Respond to new wig inquiry
+    steps:
+      - intent: new_wig_inquiry
+      - action: utter_new_wig_inquiry
+
+  - rule: Respond to wig under repair inquiry
+    steps:
+      - intent: wig_under_repair_inquiry
+      - action: utter_wig_under_repair_inquiry
+
+  - rule: Respond to wig wash and set inquiry
+    steps:
+      - intent: wig_wash_and_set_inquiry
+      - action: utter_wig_wash_and_set_inquiry
