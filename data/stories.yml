@@ -85,5 +85,9 @@ stories:
     steps:
       - intent: book_appointment_new_wigs
       - action: utter_new_wings_info
+  - story: wig pickup:
+    steps: 
+      - intent:  inquire_wig_pickup
+      - action:  utter_wig_pickup
   
 
