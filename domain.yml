@@ -71,7 +71,7 @@ Our product lasts for years."
     - text: "Repairs usually take 2-3 weeks. When your wig is ready, you will get a message."
 
   utter_wig_wash_and_set_inquiry:
-    - text: "Wash and sets are ready within 1-2 days. You will get a call when it's ready."
+    - text: "Wash and sets are ready within 2-3 days. You will get a call when it's ready."
 
   utter_thank_you:
     - text: "You're welcome! Let me know if you need anything else."
