@@ -1078,6 +1078,59 @@ nlu:
       - Can I book a consultation to see the new wigs?
       - Is there an appointment available for new wigs viewing?
       - Can I inquire about booking a time for new wigs?
+- intent: inquire_wig_pickup
+    examples: |
+      - When can I pick up my wig?
+      - Can you tell me when my wig will be ready for pickup?
+      - When will my wig be ready to collect?
+      - How soon can I pick up my wig?
+      - Is my wig ready for pickup yet?
+      - Can I pick up my wig today?
+      - I’d like to know when I can collect my wig.
+      - What time can I come to pick up my wig?
+      - Can you tell me the pickup time for my wig?
+      - When is my wig scheduled for pickup?
+      - I need to know when I can pick up my wig.
+      - Can I get my wig now?
+      - Is my wig ready for collection?
+      - When should I come to pick up my wig?
+      - Has my wig been prepared for pickup?
+      - Can I collect my wig today?
+      - When will my wig be ready to pick up?
+      - I’d like to check if my wig is ready for pickup.
+      - Is my wig available for collection?
+      - How do I find out when my wig is ready for pickup?
+      - Can I get my wig now, or do I need to wait?
+      - What’s the status of my wig pickup?
+      - When can I collect my wig order?
+      - I’m wondering if my wig is ready for pickup.
+      - How soon will my wig be ready to pick up?
+      - When will the wig be available for me to collect?
+      - Has my wig been completed for pickup?
+      - When will the salon notify me about wig pickup?
+      - I need to check the pickup time for my wig.
+      - Can I confirm if my wig is ready for collection?
+      - How can I find out if my wig is ready to pick up?
+      - What’s the earliest I can pick up my wig?
+      - Can I collect my wig tomorrow?
+      - When should I expect my wig to be ready for pickup?
+      - Is the wig I ordered ready to pick up?
+      - Can you tell me if my wig is ready for pickup now?
+      - I want to know when I can get my wig.
+      - When is my wig available for pickup?
+      - When should I come to the salon to pick up my wig?
+      - Is it time for me to pick up my wig yet?
+      - Has my wig been finished for collection?
+      - When is the expected pickup time for my wig?
+      - Can I grab my wig now, or is it not ready yet?
+      - I’d like to pick up my wig. When can I do that?
+      - Is my wig finished and ready to be picked up?
+      - What time is best to collect my wig?
+      - Can I stop by to pick up my wig today?
+      - How do I know when my wig will be ready for collection?
+      - I need to find out the pickup time for my wig.
+      - When is the pickup date for my wig?
+      - Is it possible to get my wig today?
 
 
 
