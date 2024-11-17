@@ -1025,6 +1025,59 @@ nlu:
       - thank you, I truly appreciate it
       - I appreciate all your help, thanks!
       - thank you for everything you've done
+      
+- intent: book_appointment_new_wigs
+    examples: |
+      - When can I see new wigs?
+      - Can I make an appointment to see new wigs?
+      - I’d like to book a time to view new wigs.
+      - How do I schedule an appointment to see new wigs?
+      - Is it possible to book an appointment for new wigs?
+      - Can I arrange a meeting to see new wigs?
+      - I want to schedule a time to check out the new wigs.
+      - Can I book a slot to see the new wigs?
+      - Can I see the new wigs today if I make an appointment?
+      - Is there availability to see new wigs?
+      - Can I reserve a time to see the new wigs?
+      - What’s the process to book an appointment for new wigs?
+      - I need to make an appointment to view new wigs.
+      - I want to check when I can see new wigs.
+      - Can I schedule a visit to see the new wigs?
+      - Is it possible to book a visit for the new wigs?
+      - I’d like to know how to book an appointment to see new wigs.
+      - Can I make a booking to see the new wigs?
+      - I want to schedule an appointment to view the new wigs.
+      - Can you help me book an appointment for new wigs?
+      - When is the next available time to see new wigs?
+      - How soon can I make an appointment for the new wigs?
+      - Can I visit today to see the new wigs if I book now?
+      - I want to know when I can make an appointment to see new wigs.
+      - When are new wigs available for viewing?
+      - Can I book an appointment now to see the new wigs?
+      - How do I make an appointment to see the new wigs?
+      - Is there a way to schedule a visit for new wigs?
+      - I’d like to check if I can book a time for the new wigs.
+      - When can I come to see the new wigs?
+      - Can I plan a visit to check out the new wigs?
+      - I want to arrange a time to view the new wigs.
+      - Is it possible to schedule a time to see the new wigs?
+      - How can I book a time slot for the new wigs?
+      - Can I come in for an appointment to see the new wigs?
+      - What are the options to book a time for new wigs?
+      - Can I reserve an appointment to see the new wigs today?
+      - Are there any appointments available for viewing new wigs?
+      - I’d like to know if I can book a time to see the new wigs.
+      - Can I check the availability to see the new wigs?
+      - When is the next slot to book for new wigs?
+      - Can I come to see new wigs after making an appointment?
+      - Is it possible to arrange an appointment for new wigs viewing?
+      - How do I confirm a booking to see the new wigs?
+      - What’s the earliest time I can book to see new wigs?
+      - I want to make a reservation to see the new wigs.
+      - Can I see the new wigs if I book an appointment now?
+      - Can I book a consultation to see the new wigs?
+      - Is there an appointment available for new wigs viewing?
+      - Can I inquire about booking a time for new wigs?
 
 
 
