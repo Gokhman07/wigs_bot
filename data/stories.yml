@@ -89,5 +89,9 @@ stories:
     steps: 
       - intent:  inquire_wig_pickup
       - action:  utter_wig_pickup
+  - story: wig ready:
+    steps: 
+      - intent: inquire_wig_ready
+      - action: 
   
 
