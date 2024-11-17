@@ -92,6 +92,7 @@ stories:
   - story: wig ready:
     steps: 
       - intent: inquire_wig_ready
-      - action: 
+      - action: utter_wig_ready
+
   
 
