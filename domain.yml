@@ -58,7 +58,7 @@ Our product lasts for years."
   utter_salon_table: 
     - text: "In general, it is days from Sunday to Thursdy, between the hours of between 9:00-13:30. Except for holidays and holiday eves. There is a concentrated vacation in August, and in Pesach a few days before it is closed."
   utter_appoiny_info: 
-    - text : "Hi,  to book or reschedule an appointment please call our salon Sunday-Thursday between 9:00-15:00."
+    - text : "To book or reschedule an appointment please call our salon Sunday-Thursday between 9:00-15:00."
   utter_give_number: 
     - text : "Phone & Whatsapp: +972-2-642-3576."
   utter_ask_wig_type:
