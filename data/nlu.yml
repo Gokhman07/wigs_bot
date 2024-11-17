@@ -1027,7 +1027,7 @@ nlu:
       - thank you for everything you've done
       
 - intent: book_appointment_new_wigs
-    examples: |
+  examples: |
       - When can I see new wigs?
       - Can I make an appointment to see new wigs?
       - I’d like to book a time to view new wigs.
@@ -1079,7 +1079,7 @@ nlu:
       - Is there an appointment available for new wigs viewing?
       - Can I inquire about booking a time for new wigs?
 - intent: inquire_wig_pickup
-    examples: |
+  examples: |
       - When can I pick up my wig?
       - Can you tell me when my wig will be ready for pickup?
       - When will my wig be ready to collect?
@@ -1133,7 +1133,7 @@ nlu:
       - Is it possible to get my wig today?
  
 - intent: inquire_wig_ready
-    examples: |
+  examples: |
       - When will my wig be ready?
       - How long until my wig is ready?
       - Can you tell me when my wig will be ready?
