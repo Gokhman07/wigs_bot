@@ -18,6 +18,7 @@ intents:
 - wig_wash_and_set_inquiry
 - thank_you
 - book_appointment_new_wigs
+- inquire_wig_pickup
 entities:
 - category
 - length
@@ -74,6 +75,8 @@ responses:
     - text: "You're welcome! Let me know if you need anything else."
   utter_new_wings_info:
     - text: "To see our new wigs, please call to schedule an appointment, Sunday-Thursday between 9:00-15:00."
+  utter_wig_pickup:
+    - text: "You can pick up your wig Sunday-Thursday between 9:30-13:30."
 
 
 actions:
