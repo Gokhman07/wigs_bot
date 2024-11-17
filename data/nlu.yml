@@ -1131,7 +1131,60 @@ nlu:
       - I need to find out the pickup time for my wig.
       - When is the pickup date for my wig?
       - Is it possible to get my wig today?
-
+ 
+- intent: inquire_wig_ready
+    examples: |
+      - When will my wig be ready?
+      - How long until my wig is ready?
+      - Can you tell me when my wig will be ready?
+      - Is my wig almost ready?
+      - When should I expect my wig to be ready?
+      - How soon can my wig be completed?
+      - What’s the timeline for my wig to be ready?
+      - I’d like to know when my wig will be done.
+      - Can you give me an update on when my wig will be ready?
+      - When will the wig I ordered be finished?
+      - How much longer until my wig is ready?
+      - Will my wig be ready soon?
+      - What’s the status of my wig’s completion?
+      - Is my wig ready yet?
+      - When can I expect my wig to be finished?
+      - Has my wig been completed?
+      - How do I find out when my wig will be done?
+      - Can you update me on my wig's readiness?
+      - When will the wig be available?
+      - What’s the expected date for my wig to be ready?
+      - How do I know when my wig will be ready?
+      - When is my wig supposed to be finished?
+      - Will my wig be done this week?
+      - When is my wig going to be ready?
+      - How soon can I pick up my completed wig?
+      - Is the wig I ordered almost done?
+      - Can you confirm when my wig will be finished?
+      - I need to know when my wig will be ready.
+      - When will my custom wig be done?
+      - How long do I need to wait for my wig to be ready?
+      - Is there a specific time my wig will be ready?
+      - Has my wig been finalized yet?
+      - Can you tell me the completion date for my wig?
+      - I’d like to know how long it will take for my wig to be ready.
+      - When will the wig be complete?
+      - What’s the time frame for my wig to be ready?
+      - When should I expect the wig to be done?
+      - Has my wig order been finished yet?
+      - How much time does it take for my wig to be ready?
+      - Can you provide a completion time for my wig?
+      - What’s the estimated completion time for my wig?
+      - Is there an ETA for my wig to be ready?
+      - I’m checking on the status of my wig. When will it be done?
+      - How long will it take for my wig to be ready?
+      - What’s the expected time frame for my wig?
+      - Can you let me know when my wig will be finished?
+      - When can I come to pick up my finished wig?
+      - How do I check the readiness of my wig?
+      - Can you update me on the progress of my wig?
+      - When will the salon have my wig ready?
+      - What’s the expected completion date for my wig?
 
 
 
