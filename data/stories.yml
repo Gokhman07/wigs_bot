@@ -24,6 +24,7 @@ stories:
     steps:
       - intent: ask_address
       - action: utter_address
+  
 
   - story: user asks unknown question
     steps:
@@ -80,5 +81,9 @@ stories:
     steps:
       - intent: thank_you
       - action: utter_thank_you
+  - story: info of new wigs:
+    steps:
+      - intent:
+      - action: 
   
 
