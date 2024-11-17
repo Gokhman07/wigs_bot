@@ -81,7 +81,7 @@ stories:
     steps:
       - intent: thank_you
       - action: utter_thank_you
-  - story: info of new wigs:
+  - story: info of new wigs
     steps:
       - intent: book_appointment_new_wigs
       - action: utter_new_wings_info
