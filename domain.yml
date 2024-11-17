@@ -19,6 +19,7 @@ intents:
 - thank_you
 - book_appointment_new_wigs
 - inquire_wig_pickup
+- inquire_wig_ready
 entities:
 - category
 - length
@@ -77,6 +78,8 @@ responses:
     - text: "To see our new wigs, please call to schedule an appointment, Sunday-Thursday between 9:00-15:00."
   utter_wig_pickup:
     - text: "You can pick up your wig Sunday-Thursday between 9:30-13:30."
+  utter_wig_ready:
+    - text: "New wig inquiries will be forwarded to our team. For repairs, it typically takes 2-3 weeks, and for a wash and set, 2-3 days."
 
 
 actions:
