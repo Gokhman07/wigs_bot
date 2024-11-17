@@ -44,11 +44,7 @@ responses:
   utter_ask_unknown:
     - text: "I can't answer on this question"
   utter_general_price:
-    - text: "Our prices are from
-4000$-13.000$ usa dolars.
-( depends on color,length, texture etc) \n
-We use only virgin natural extremely high quality hair.\n
-Our product lasts for years."
+    - text: "Our prices range from $4000-$13,000 depending on color, length, and texture. We use only virgin, natural, high-quality hair.."
   utter_share_whatsapp: 
     - text: "If you want more details, you can reach out to me on WhatsApp at +972 2-642-3576"
   utter_yafi_info:
