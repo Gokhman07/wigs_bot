@@ -10,10 +10,6 @@ rules:
      - intent:  nlu_fallback
      - action:  action_default_fallback
 
-  - rule: Ask user for wig type clarification
-    steps:
-      - intent: inquire_wig
-      - action: utter_ask_wig_type
 
 
 
