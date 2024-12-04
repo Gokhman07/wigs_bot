@@ -1223,6 +1223,58 @@ nlu:
       - I want to ask about the wig I ordered
       - What’s the current status of my wig?
       - How is the wig order going?
+- intent: place_order
+  examples: |
+      - I want to place an order.
+      - How can I order?
+      - I need to place an order.
+      - Can I order something?
+      - How do I make an order?
+      - I would like to order.
+      - Help me place an order.
+      - How to order online?
+      - Where can I place my order?
+      - I want to order now.
+      - Is it possible to order here?
+      - Guide me to place an order.
+      - Can I place an order right now?
+      - Show me how to order.
+      - I need to know how to place an order.
+      - Tell me the steps to order.
+      - How do I place my order?
+      - Let me place an order.
+      - Help me with ordering.
+      - What is the process to place an order?
+      - I am ready to order.
+      - How to order something?
+      - Can I make an order from here?
+      - How can I order this item?
+      - How to order on your site?
+      - I want to buy something.
+      - Can I get help placing an order?
+      - Tell me how to order something.
+      - I need instructions for ordering.
+      - How do I proceed to order?
+      - I want to shop.
+      - Help me shop.
+      - How can I shop here?
+      - I want to add an item to my order.
+      - What do I need to do to order?
+      - Where do I start to place an order?
+      - Please guide me on how to order.
+      - I want to make a purchase.
+      - How do I buy something here?
+      - Can you help me order?
+      - I need to order some items.
+      - Show me how to make an order.
+      - I would like to purchase something.
+      - Is there a way to place an order now?
+      - Tell me how to start an order.
+      - What are the steps to order?
+      - I need to place my order now.
+      - Can I order a product from your store?
+      - How do I place an order for this product?
+      - I want to check out my order.
 
 
 
