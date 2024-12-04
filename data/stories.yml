@@ -93,6 +93,12 @@ stories:
     steps: 
       - intent: inquire_wig_ready
       - action: utter_wig_ready
+      
+  - story: place order
+    steps: 
+      - intent: place_order
+      - action: utter_wig_ready
+
 
   
 
