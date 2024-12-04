@@ -20,6 +20,7 @@ intents:
 - book_appointment_new_wigs
 - inquire_wig_pickup
 - inquire_wig_ready
+- place_order
 entities:
 - category
 - length
@@ -81,7 +82,7 @@ responses:
   utter_wig_ready:
     - text: "New wig inquiries will be forwarded to our team. For repairs, it typically takes 2-3 weeks, and for a wash and set, 2-3 days."
   utter_place_order:
-    - text: "You should call our salon at +97226423576 to place an order"
+    - text: "You should call our salon at +97226423576 to place an order."
 
 
 actions:
